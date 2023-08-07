@@ -70,10 +70,13 @@
 }
 
 .cover {
+  position: relative;
   padding: 165px 50px 62px 50px;
-  background-image: url('../images/jambotron-bg.jpg');
+  background-image: url('../images/lotus-flower.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -2;
+
 }
 
 .cover__title {
@@ -123,5 +126,5 @@
   font-size: 22px;
   line-height: normal;
   text-transform: uppercase;
-  background-color: inherit;
+  background-color: transparent;
 }
