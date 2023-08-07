@@ -7,3 +7,19 @@ body {
   font-weight: 400;
   background-color: #FFFFFF;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.accent-span {
+  display: block;
+}
+
+.letter-spacing-span {
+  letter-spacing: 60px;
+}

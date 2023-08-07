@@ -68,3 +68,60 @@
   font-style: normal;
   line-height: 1.35;
 }
+
+.cover {
+  padding: 165px 50px 62px 50px;
+  background-image: url('../images/jambotron-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 1.15;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.cover__info-wrapper {
+  display: flex;
+  justify-content: end;
+  gap: 78px;
+  margin-top: 147px;
+}
+
+.cover__description {
+  align-self: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.27;
+  text-align: center; 
+  text-transform: uppercase;
+  word-spacing: 26px;
+}
+
+.cover__bet-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: end;
+  width: 257px;
+  height: 52px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: inherit;
+}
