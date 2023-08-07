@@ -138,10 +138,18 @@
 .lots__cards-list {
   display: flex;
   gap: 25px;
+  flex-wrap: wrap;
   margin-top: 27px;
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
+}
+
+.lots__cards-item {
+  width: 430px;
+  min-height: 450px;
+
+  flex-grow: 1
 }
 
 .card {
@@ -150,9 +158,9 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
+  width: 100%;
+  height: 100%;
   box-sizing: border-box;
-  width: 430px;
-  min-height: 450px;
   padding: 40px 50px;
 }
 
