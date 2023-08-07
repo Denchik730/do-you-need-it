@@ -71,11 +71,11 @@
 
 .cover {
   position: relative;
+  z-index: -2;
   padding: 165px 50px 62px 50px;
   background-image: url('../images/lotus-flower.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -2;
 
 }
 
@@ -122,9 +122,91 @@
   height: 52px;
   border: 1px solid #FFF;
   color: #FFF;
+  font-family: 'Raleway';
   font-weight: 400;
   font-size: 22px;
   line-height: normal;
   text-transform: uppercase;
+  background-color: transparent;
+}
+
+.lots {
+  padding: 180px 50px 0 50px;
+}
+
+
+.lots__cards-list {
+  display: flex;
+  gap: 25px;
+  margin-top: 27px;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  box-sizing: border-box;
+  width: 430px;
+  min-height: 450px;
+  padding: 40px 50px;
+}
+
+.card_type_film {
+  z-index: -2;
+  background-image: url('../images/lot1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card_type_book {
+  z-index: -2;
+  background-image: url('../images/lot2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card_type_picture {
+  z-index: -2;
+  background-image: url('../images/lot3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.card__description {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.lots__see-more {
+  margin-top: 30px;
+  margin-left: 40px;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 0;
+  padding-bottom: 2px;
+  color: #000;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
   background-color: transparent;
 }
